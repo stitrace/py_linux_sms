@@ -34,7 +34,7 @@ class TextMessage:
 
 
 if len(sys.argv) < 2:
-    print('usage: sms.py +79310000306 Message')
+    print('usage: sms.py +79310000000 Message')
     exit(0)
 sms = TextMessage(sys.argv[1], sys.argv[2])
 sms.connectPhone()
